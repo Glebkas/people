@@ -1,0 +1,6 @@
+.card__top{
+    min-height: 110px;
+    background-color: rgba(25, 161, 174, 1);
+    border-radius: 10px 10px 0 0;
+    
+}

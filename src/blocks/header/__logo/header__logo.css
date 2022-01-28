@@ -1,0 +1,23 @@
+.header__logo {
+  width: 99px;
+  height: 40px;
+  background-image: url(../../../../public/images/people-logo.png);
+  background-size: cover;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 880px) {
+  .header__logo {
+    margin-left: 27px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__logo {
+    max-width: 128px;
+    min-height: 24px;
+  }
+}
