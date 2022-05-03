@@ -45,7 +45,9 @@ function Users(props) {
             <button
               className="card__edit-button"
               type="button"
-              onClick={() => handleEditClick(user.login.uuid)}
+              onClick={() =>
+                handleEditClick(user.key)
+              }
             ></button>
             <div className="card__top"></div>
             <img
