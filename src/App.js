@@ -9,7 +9,7 @@ function App() {
   const [isEditProfileOpen, setIsEditProfileOpen] = React.useState(false);
   const [isAddUserPopupOpen, setIsAddUserPopupOpen] = React.useState(false);
 
-  function handleAddUserClick() {
+  function handleAddUserClick(id) {
     setIsAddUserPopupOpen(true);
   }
 
@@ -36,11 +36,11 @@ function App() {
         </section>
       </main>
       <Footer />
-      <EditProfilePopup
+      {/* <EditProfilePopup
         isOpen={isEditProfileOpen}
         onClose={closeAllPopups}
         onUserInfoUpdate={handleUpdateUser}
-      />
+      /> */}
       <AddUserPopup isOpen={isAddUserPopupOpen} onClose={closeAllPopups} />
     </>
   );
